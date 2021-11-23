@@ -1,7 +1,7 @@
 # This is a sample Python script.
 
-from pages.base import WebPage
-from pages.elements import WebElement, ManyWebElements
+from base import WebPage
+from elements import WebElement, ManyWebElements
 import os
 
 
