@@ -3,6 +3,8 @@
 написаны для него автоматизированные тесты
 использованы PyTest и Selenium
 
+запуск теста:
+python -m pytest -v --driver Chrome --driver-path <путь к файлу chromedriver.exe> tests.py
 проверяется:
 
 #проверка возможности изменить регион
