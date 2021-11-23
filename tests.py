@@ -6,11 +6,11 @@ import pytest
 def test_location(web_browser):
     page = MainPage(web_browser)
     page.location.click()
-    page.location_input.send_keys("Улан-Удэ")
+    page.location_input.send_keys("Владимир")
     page.first_element_in_location.click()
     page.wait_page_loaded(3)
 
-    assert page.location.get_text() == "Улан-Удэ"
+    assert page.location.get_text() == "Владимир"
 
 @pytest.mark.pages
 #Проверка ссылки на страницу TOP Fashion
