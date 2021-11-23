@@ -1,4 +1,4 @@
-from pages.main import MainPage
+from main import MainPage
 import pytest
 
 @pytest.mark.location
